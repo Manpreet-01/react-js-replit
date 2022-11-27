@@ -1,11 +1,14 @@
 import React from 'react';
 
+import pi, {doublepi, triplepi} from './math'
+
 function List() {
   return (
     <ol>
-      <li>Banana Shake</li>
-      <li>Milk Shake</li>
-      <li>Dry Fruits</li>
+      <li>{pi}</li>
+      <li>{pi}</li>
+      <li>600</li>
+      <li>{ doublepi() }</li>
     </ol>
   );
 }
